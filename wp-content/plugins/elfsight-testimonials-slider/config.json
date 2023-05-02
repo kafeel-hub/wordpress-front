@@ -1,0 +1,246 @@
+{
+	"observerUrl": "./preview/dist/testimonials-slider-observer.js",
+	"preferences": {
+		"previewUpdateTimeout": 0,
+		"previewDefaultBgColor": "white",
+		"previewDefaultResolution": "768px",
+		"fileUpload": false,
+		"enableCustomCSS": true
+	},
+	"settings": {
+		"tabs": [
+			{
+				"id": "style",
+				"name": "Style",
+				"active": true
+			},
+			{
+				"id": "content",
+				"name": "Content"
+			},
+			{
+				"id": "advanced",
+				"name": "Advanced"
+			}
+		],
+		"properties": [
+			{
+				"id": "layout",
+				"name": "Layout",
+				"tab": "style",
+				"type": "select-visual",
+				"defaultValue": "slider",
+				"select": {
+					"options": [
+						{
+							"value": "slider",
+							"name": "Slider",
+							"img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAA49JREFUeAHtnb+u0zAUh+O0KwJ1hhGe4kowABIDD9AkdEFi5gHgBViQGBmQaEn6AgiEdIVAAomJB2BhAIkZJhi4wSfgyA1OrnN1GzXuF6nyqX385/fZdePUSaNo9IcyCuZJWoqtIvW2jMrLJr4ZrotcGV+x46ZDV+amr7z/rwCXE3HBE6hGohlZtlp7xLWNzmokzheLAzujy+4anfF6uXznykQcBEZEoJ7Tpc2uT5RLi/0pc6XbcW2+Ei9+TOk2rV52mi5uSIYkzb4Yu1cBOEMAAhD4R6D+LkiS7E3z5KdtHnedZfX1NT1Qfxc0KzcOrvA0fasGzNPsvauibcbNk+yjlF81YBqr+9uszFW2mqh7dQNWq9Vrl9M244rV6sU2y9+Dsu3zALH3QDISIQABCEAAAhAIj0C9JLGlDXmZyq7X2G3LG5Nuh3197bxi10uiZsK+vK8BSK/79vzY4VRa0+yb6JgaMTKUjB16aGutR0DootG3KwRk9WzmmjZ7V9pKOyAAAQhAAAIQgAAEIAABCEAAAhCAAARCJOC8EmwuWXUJlv1aRfHsyth8m5pOfFX4NPeL2Y0autwTA7AbPWYbAKb39I7FD2VZOucE4xNCqC/Fv0qSxVWjpfppLEnST1r8xSzLzuiEHyYxxFDrvB5Fv/VL33unj+ojUBT5JRVNruV5HrT4SrCaHjh/GyyK5aE4hH7k+dONzclMgqH3OPogAIHdIiCLJ7PDvs0essWDfwsopb6qKL4jItvsIQFQFwQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAAAhCAAAQgAAEIQAACEIAABAIk4L0j3OdukD58zB5dyv37zKZtcTiuTwbfGHZcg0gflgADYFjeO1cbA2DnumTYBtXPD5Rq5+mth1F5dNc0IVbR2X24b8joDTXcOL9Q8ZN1vrpttG7MANM4eqRU9FwS9cbtn7PZ7JdxJBw1ge/Sen3GfzhR5QNbycYMoP/b4bNOvGk7YI+fgF5xnWtTsTEDtDkRHy4BBkC4feulzHsAyONBvEr0cLLLsm2PrJ0udlm23ZnJI9Euy7Y9sna62GXZdmcmj8TTLMujOlwgAIHREvD+LWCsCuUvUMvo6LG0X+5NzvPlS7H7xkueEI+NZWCIAqXz9RNyzlfaVDUQLojdNz5ENmiCAAQgAAEIQAACEIAABCAAAQhAAAIQgAAEIAABCEAgfAJ/AKamOLkPPjCYAAAAAElFTkSuQmCC"
+						},
+						{
+							"value": "grid",
+							"name": "Grid",
+							"img": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAABMCAYAAAHSE4+SAAAABGdBTUEAALGPC/xhBQAAAltJREFUeAHtnGFSgzAQhakX02uIHk/xGnoyHH5kJl0rIZsHdJvPPyRN9rH59g1h0o7DEP7vYlfwOr7N9rO8/zV9XsU85YOe9gMIeJZNjCFw5aplLDlxcVxq5zE4MadB+14I/DGyTew/M9/63MYufWt8O6f5iWoFa/vFBC7D5WeraM3cpFlMYB7m5zS5dK2Zm7SKCaSJXCEAgYcl4NoLbtHY+hJkY09/EJGAi4Bn17O1T31XAp5dL93QXl0JWJGWPgmcTqClfMRCAAIQgEB8AsU34tISa05J9ppbynFtvPudGABr9uhhrHsH9FDk1TWyC6zi6WCw+2cAAFpdXnNGttfc1jUQDwEIQAACEIAABCAAAQhAoDsCnAh1V3KzYA5EDJDuujigu5KbBeMAA6S7Lg44ouR7HYfX6B6xzpD34FU4ZNmESfMQFMIMKYUDQpZNmDQOEMIMKYUDjihbzSvrXnOPWCf3gAAEIAABCEAAAhCAAAQgAAEIQAACEIAABCAAAQhA4D4JNP8ypHVZ4/j+rfrPcMuXKdP08bLkFE23laM3/vSvBFXFXwDkWnnbCyfF5Vp5O417r0otbw6nG8CbOHEaAhhAwzGsCgYIWzpN4hhAwzGsCgYIWzpN4hhAwzGsCgYIWzpN4hhAwxEVCMQkwFHwhrodccS8IY1dppy+BSiPQ3OtvN1KLtfK20rdVi1v/OkG8CZOnIYABtBwDKuCAcKWTpM4BtBwDKuCAcKWTpM4BtBwDKuCAcKWTpM4BtBwRAUCEIAABCAAAQhAAAIQgAAEIAABCEAAAvdN4Be3SaFEIV9gmwAAAABJRU5ErkJggg=="
+						}
+					]
+				},
+				"description": "Choose Slider layout to display testimonials in a feed as part of your page's content, or Grid layout to display them on a separate page or individually."
+			},
+			{
+				"id": "layoutSlider",
+				"name": "Slider Settings",
+				"tab": "style",
+				"type": "subgroup",
+				"subgroup": {
+					"properties": [
+						{
+							"id": "sliderArrows",
+							"name": "Show navigation arrows",
+							"type": "toggle",
+							"defaultValue": true,
+							"description": "Activate/Deactivate arrows in the slider."
+						},
+						{
+							"id": "sliderDrag",
+							"name": "Drag to navigate",
+							"type": "toggle",
+							"defaultValue": true,
+							"description": "Activate/Deactivate drag in the slider."
+						},
+						{
+							"id": "sliderSpeed",
+							"name": "Slide switch speed (sec)",
+							"type": "number",
+							"defaultValue": 0.6,
+							"description": "Animation speed of slide switching (sec)."
+						},
+						{
+							"name": "Autoplay speed (sec)",
+							"type": "static-html",
+							"staticHtml": {
+								"content": "<div style=\"position:relative\"><div style=\"background:#303131;border-radius:2px;width:100%;height:32px;\"></div><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0;right:3px;left:0;text-align:right;padding:6px;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+							},
+							"description": "Autoplay in the slider (in seconds). If this option is set to \"0\" autoplay is turned off."
+						},
+						{
+							"id": "sliderPaginationType",
+							"name": "Pagination type",
+							"type": "select-inline",
+							"selectInline": {
+								"options": [
+									{
+										"value": "classic",
+										"name": "Classic"
+									},
+									{
+										"value": "none",
+										"name": "None"
+									}
+								]
+							},
+							"defaultValue": "classic",
+							"description": "Type of pagination in the slider."
+						}
+					]
+				}
+			},
+			{
+				"name": "Testimonial Template",
+				"tab": "style",
+				"type": "static-html",
+				"staticHtml": {
+					"content": "<div style=\"position:relative\"><img src=\"data:image/png;base64,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\"><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0;right:0;left:0;bottom:0;padding:16px 29px 0 0;line-height:140px;text-align:center;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+				},
+				"description": "Select one of the 6 predefined templates for the testimonials in your slider. Tiled templates allow you to display several testimonials at ones, depending on the size of your slider. Single templates display individual testimonials. Perfect choice for cases when you need to focus on each individual story."
+			},
+			{
+				"id": "widgetTitle",
+				"name": "Title",
+				"type": "text",
+				"tab": "content",
+				"defaultValue": "What our clients say",
+				"allowEmpty": true,
+				"description": "Add a title to your testimonials slider widget."
+			},
+			{
+				"id": "items",
+				"name": "Testimonials",
+				"tab": "content",
+				"type": "complex",
+				"complex": {
+					"properties": [
+						{
+							"id": "text",
+							"name": "Testimonial Text",
+							"type": "textarea",
+							"label": "Text",
+							"defaultValue": "",
+							"placeholder": "",
+							"allowEmpty": true,
+							"textarea": {
+								"enableRichEdit": true,
+								"enableRichEditHtml": true
+							},
+							"description": "Paste testimonial text to this field"
+						},
+						{
+							"type": "divider"
+						},
+						{
+							"id": "name",
+							"name": "Author Name",
+							"type": "text",
+							"defaultValue": "",
+							"allowEmpty": true,
+							"description": "Enter the name of the testimonial's author."
+						},
+						{
+							"id": "caption",
+							"name": "Caption (position, company name, etc)",
+							"type": "text",
+							"defaultValue": "",
+							"allowEmpty": true,
+							"description": "Set any additional info you'd like to display, e.g. the author's company name or position."
+						},
+						{
+							"type": "static-html",
+							"name": "Social Profile URL (Facebook, Twitter)",
+							"staticHtml": {
+								"content": "<div style=\"position:relative\"><div style=\"background:#303131;border-radius:2px;width:100%;height:32px;\"></div><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0;right:3px;left:0;text-align:right;padding:6px;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+							},
+							"description": "Paste the link to the author's Facebook or Twitter page, to let people check out the profile and make sure that the author is real."
+						},
+						{
+							"type": "static-html",
+							"name": "Picture (author photo, etc)",
+							"staticHtml": {
+								"content": "<div style=\"position:relative\"><div style=\"background:#303131;border-radius:2px;width:100%;height:32px;\"></div><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0px;right:3px;left:0;text-align:right;padding:6px;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+							},
+							"description": "Set the image URL to display alongside the testimonial. It could be the author photo or any other appropriate image."
+						},
+						{
+							"type": "divider"
+						},
+						{
+							"type": "static-html",
+							"name": "Website URL",
+							"staticHtml": {
+								"content": "<div style=\"position:relative\"><div style=\"background:#303131;border-radius:2px;width:100%;height:32px;\"></div><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0;right:3px;left:0;text-align:right;padding:6px;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+							},
+							"description": "Set the URL of the author's website. It will be displayed under the caption. In case you've specified the company logo in the field below, the URL won't be displayed. Instead, the logo will become clickable and will take you to that website."
+						},
+						{
+							"type": "static-html",
+							"name": "Company Logo",
+							"staticHtml": {
+								"content": "<div style=\"position:relative\"><div style=\"background:#303131;border-radius:2px;width:100%;height:32px;\"></div><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"position:absolute;top:0;right:3px;left:0;text-align:right;padding:6px;color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+							},
+							"description": "Paste the URL to the testimonial's author's company logo. In case you've specified the website URL in the field above, the logo will become clickable and will take you to that website."
+						}
+					],
+					"nameProperty": "caption",
+					"limit": 4,
+					"limitExceedHtml": "<div style=\"text-align:center;width:100%;\"><a href=\"https://elfsight.com/testimonials-slider-widget/?utm_source=markets&utm_medium=wordpress-org&utm_content=adminpanel&utm_campaign=testimonials-slider-lite&utm_term=upgradetopro\" target=\"_blank\" style=\"color:#4AD504;font-size:12px;text-decoration:underline;\">Available in Pro version</a></div>"
+				},
+				"defaultValue": [
+					{
+						"text": "Love the design and customization of InstaShow. We have used various Instagram apps for Shopify in the past but they would always mess up our theme. I love how we can completely customize InstaShow to how we want the feed to come out. Loads quickly and responsive to all devices. A++",
+						"name": "Taylor Jay",
+						"caption": "Founder & CEO"
+					},
+					{
+						"text": "I have used Elfsight's InstaShow Instagram feed plugin for a couple years and have nothing but good things to say about it. I like the flexibility and amount of customization that you can do without requiring any custom CSS. I also like the fact that you can customize the plugin via CSS if you want to get super specific with the styling. I have recommended it to a few others who are using it on their sites and are equally as impressed.",
+						"name": "Garrett Kite",
+						"caption": "Business strategist"
+					},
+					{
+						"text": "A very well done plugin that now works exactly as advertised. Leaps and bounds above any other facebook plugin I've ever worked with.",
+						"name": "Marion Campbell",
+						"caption": "Entrepreneur"
+					}
+				],
+				"description": "Here you can add, edit and order your testimonials."
+			},
+			{
+				"id": "textView",
+				"tab": "advanced",
+				"name": "How to display testimonials text",
+				"type": "select-inline",
+				"selectInline": {
+					"options": [
+						{
+							"value": "short",
+							"name": "Short"
+						},
+						{
+							"value": "full",
+							"name": "Full"
+						}
+					]
+				},
+				"defaultValue": "short",
+				"description": "Activate/Deactivate \"read more\" button for a large testimonials."
+			}
+		]
+	}
+}
